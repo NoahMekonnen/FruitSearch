@@ -24,8 +24,6 @@ function searchHandler(e) {
 		li.innerText = result;
 		ul.appendChild(li);
 	};
-	const searchContainer = document.getElementByClassName('search-container')
-	searchContainer.classList.add('adjusted');
 
 	// TODO
 }

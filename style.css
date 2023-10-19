@@ -33,7 +33,9 @@ body {
 .search-container .suggestions {
  width: 40%;
  position: absolute;
- top: 38px;
+ top: 40px;
+ overflow-y: auto;
+ max-height: 571px;
    /* TODO */
 }
 
@@ -42,6 +44,7 @@ ul {
   list-style-type : none;
   background-color: whitesmoke;
   border-color: black;
+  padding: 0px;
   /* TODO */
 }
 ul.has-suggestions {
